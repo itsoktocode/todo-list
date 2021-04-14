@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <link href="index.css" rel="stylesheet" />
+  <script src="index.js"></script>
+  <title>Todo-App</title>
+</head>
+
+<body>
+  <div class="todo-list-wrapper">
+    <div class="todo-list">
+      <form>
+        <input id="add-todo-input" type="text" placeholder="Your task" />
+        <button type="button" onclick="addTodo()">
+          Add Todo
+        </button>
+      </form>
+      <div id="todos"></div>
+      <button id="delete-all-todos-button" onclick="deleteTodos()">
+        Delete All Todos
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>

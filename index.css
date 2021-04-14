@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.todo-list-wrapper {
+  min-height: 100vh;
+  background-color: #ccc;
+}
+.todo-list, #todos {
+  display: flex;
+  flex-direction: column;
+}
+.todo-list {
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+#todos {
+  gap: 0.5rem;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
